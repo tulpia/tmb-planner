@@ -7,7 +7,7 @@ import GPXTrack from "./components/GPXTrack/GPXTrack";
 // Assets
 import "leaflet/dist/leaflet.css";
 
-function App() {
+const App = () => {
   return (
     <main style={{ width: "100vw", height: "100vh" }}>
       <MapContainer
@@ -25,6 +25,6 @@ function App() {
       </MapContainer>
     </main>
   );
-}
+};
 
 export default App;
